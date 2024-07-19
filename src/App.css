@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.users-button{
+  font-size: 18px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(203, 211, 218);
+  cursor: pointer;
+}
+
+.users-button:hover {
+  background-color: #a7bf5a; /* Lighter background on hover */
+  color: #200417; /* Darker text on hover */
+  transform: translateY(-5px); /* Shifts button down slightly */
+}
+
+
